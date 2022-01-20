@@ -1,5 +1,4 @@
 require './lib/passenger.rb'
-require 'pry'
 
 class Vehicle
   attr_reader :year, :make, :model, :speeding, :passengers
@@ -12,10 +11,6 @@ class Vehicle
     @passengers = []
   end
 
-  def speeding
-    @speeding = @speeding
-  end
-
   def speed
     @speeding = true
   end
@@ -25,12 +20,6 @@ class Vehicle
   end
 
   def num_adults
-    x = []
-    @passengers.each do |passenger|
-      if passenger.adult?
-        x << passenger
-      end
-    end
-    x.length
+    passengers.length
   end
 end

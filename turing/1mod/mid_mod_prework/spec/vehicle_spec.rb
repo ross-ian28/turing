@@ -1,7 +1,7 @@
 require './lib/vehicle.rb'
 require 'pry'
 
-RSpec.describe "Vehicle`" do
+RSpec.describe "Vehicle" do
 
   it "exists" do
     vehicle = Vehicle.new("2001", "Honda", "Civic")

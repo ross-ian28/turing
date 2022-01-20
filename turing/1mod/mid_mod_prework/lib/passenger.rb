@@ -1,5 +1,3 @@
-require 'pry'
-
 class Passenger
   attr_reader :feat, :driver
 

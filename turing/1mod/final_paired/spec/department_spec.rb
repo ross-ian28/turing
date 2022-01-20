@@ -28,9 +28,4 @@ RSpec.describe Department do
       expect(@customer_service.expenses).to eq(125)
     end
   end
-  describe "Iteration 3" do
-    it " " do
-
-    end
-  end
 end
